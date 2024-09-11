@@ -71,7 +71,6 @@
 <style>
   .home-component{
     position: relative;
-    max-width: 1500px;
     width: 100vw;
     height: 100vh;
     background: black;

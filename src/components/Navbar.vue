@@ -40,6 +40,12 @@ export default {};
   background: black;
 }
 
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    height: 8vh;
+  }
+}
+
 .items-box {
   display: flex;
   justify-content: flex-end;
@@ -48,6 +54,13 @@ export default {};
   height: 100%;
   padding-left: 85px;
   padding-right: 85px;
+}
+
+@media screen and (max-width: 768px) {
+  .items-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .nav-item {
